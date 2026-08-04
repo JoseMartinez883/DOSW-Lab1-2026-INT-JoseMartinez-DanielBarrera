@@ -1,0 +1,1 @@
+Se adjunta evidencia del primero reto finalizado, mostrando en pantalla el mensaje de salida en pantalla, dando evidencia de arrojar la salida esperada, se construyeron las clases Estudiante y MensajeBienvenida, como fue indicado

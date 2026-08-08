@@ -1,7 +1,5 @@
 package Laboratorio1.Reto5;
 
-package org.example.reto05;
-
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;

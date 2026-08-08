@@ -67,5 +67,4 @@ public class Comandos {
             accion.run();
         }
     }
-
 }

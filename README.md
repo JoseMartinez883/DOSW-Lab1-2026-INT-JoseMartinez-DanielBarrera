@@ -6,4 +6,4 @@
     </div>
 </p>
 
-![Texto alternativo]([url_de_la_imagen](https://github.com/JoseMartinez883/DOSW-Lab1-2026-INT-JoseMartinez-DanielBarrera/blob/8b5654427c87c0bf20d00e443af63e2960b803de/Images/evidenciaEjercicio1.png))
+![Texto alternativo](https://github.com/JoseMartinez883/DOSW-Lab1-2026-INT-JoseMartinez-DanielBarrera/blob/8b5654427c87c0bf20d00e443af63e2960b803de/Images/evidenciaEjercicio1.png)

@@ -35,6 +35,7 @@ public class Main {
 
         String greetings = MensajeBienvenida.presentacion(estudiantes);
         System.out.println(greetings);
+
         scanner.close();
     }
 }

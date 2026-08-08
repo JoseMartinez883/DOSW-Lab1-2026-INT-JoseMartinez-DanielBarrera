@@ -1,5 +1,6 @@
 package Laboratorio1.Reto2;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
@@ -37,16 +38,22 @@ public class IntegerListUtils {
         return maxIsPair.apply(max);
     }
 
+    public static Integer amountListIsPair(List<Integer> list){
+        Integer amountList = amountElements(list);
+        Function<Integer,Integer> amountListIsPair = num -> num % 2 == 0 ? 1 : -1;
+        return amountListIsPair.apply(amountList);
+    }
+
     public static List<Resultado> ListsInformation(List<Integer> list1, List<Integer> list2){
 
         List<Integer> listAnalysis1 = new ArrayList<>(listAnalysis(list1));
         listAnalysis1.add(maxIsMultiplyTwo(list1));
-
+        listAnalysis1.add(maxIsDivideTwo(list1));
         listAnalysis1.add(amountListIsPair(list1));
 
         List<Integer> listAnalysis2 = new ArrayList<>(listAnalysis(list2));
         listAnalysis2.add(maxIsMultiplyTwo(list2));
-
+        listAnalysis2.add(maxIsDivideTwo(list2));
         listAnalysis2.add(amountListIsPair(list2));
 
         return List.of(new Resultado(listAnalysis1), new Resultado(listAnalysis2));

@@ -1,4 +1,4 @@
-package org.example.reto02;
+package Laboratorio1.Reto2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,7 @@ public class Main {
 
         List<Resultado> resultAnalysis = IntegerListUtils.ListsInformation(numsList1,numsList2);
 
-        System.out.println("Lista 1 => " + resultAnalysis.getFirst().toString());
+        System.out.println("Lista 1 => " + resultAnalysis.getFirst().toString()  + "\n");
         System.out.println("Lista 2 => " + resultAnalysis.getLast().toString());
 
         sc.close();

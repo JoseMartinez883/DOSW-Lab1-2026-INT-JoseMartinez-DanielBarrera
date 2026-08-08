@@ -40,7 +40,7 @@ public class Main {
         }
 
 
-        HashMap<String, Integer> hashMap = new HashMap<>();
+        HashMap<String, Integer> hashMap;
         Hashtable<String, Integer> hashtable;
         hashMap = new HashMap<>(hashUtils.listElementsToHashMap(elementoHashMap));
         hashtable = new Hashtable<>(hashUtils.listElementsToHashTable(elementosHashTable));

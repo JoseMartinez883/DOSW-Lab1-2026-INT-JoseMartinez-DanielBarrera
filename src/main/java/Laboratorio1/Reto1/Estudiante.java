@@ -1,56 +1,53 @@
-package Laboratorio1.reto1;
+package Laboratorio1.Reto1;
 
 public class Estudiante {
 
-    private String nombre;
-    private String semestre;
-    private String correo;
-    private String edad;
+    private String name;
+    private String semester;
+    private String email;
+    private String age;
 
-    public Estudiante() {
+    public Estudiante(String name, String semester, String email, String age) {
+        this.name = name;
+        this.semester = semester;
+        this.email = email;
+        this.age = age;
     }
 
-    public Estudiante(String nombre, String semestre, String correo, String edad) {
-        this.nombre = nombre;
-        this.semestre = semestre;
-        this.correo = correo;
-        this.edad = edad;
+    public String getName() {
+        return name;
     }
 
-    public String getEdad() {
-        return edad;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setEdad(String edad) {
-        this.edad = edad;
+    public String getSemester() {
+        return semester;
     }
 
-    public String getNombre() {
-        return nombre;
+    public void setSemester(String semester) {
+        this.semester = semester;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getEmail() {
+        return email;
     }
 
-    public String getSemestre() {
-        return semestre;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public void setSemestre(String semestre) {
-        this.semestre = semestre;
+    public String getAge() {
+        return age;
     }
 
-    public String getCorreo() {
-        return correo;
-    }
-
-    public void setCorreo(String correo) {
-        this.correo = correo;
+    public void setAge(String age) {
+        this.age = age;
     }
 
     @Override
     public String toString(){
-        return nombre + ", " + " estudiante de " + semestre + "° semestre de " + edad + " años";
+        return name + ", " + " estudiante de " + semester + " semestre de " + age + " años";
     }
 }

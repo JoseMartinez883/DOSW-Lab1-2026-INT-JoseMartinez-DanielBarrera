@@ -14,7 +14,7 @@ public class Main {
         System.out.print("Mensaje Interceptado: ");
         String message = scanner.nextLine();
 
-        System.out.println("Canal A - amplifica senal");
+        System.out.println("Canal A - amplifica señal");
         System.out.println("Canal B - invierte protocolo");
         System.out.println("Descifrado final: A + B combinados");
 

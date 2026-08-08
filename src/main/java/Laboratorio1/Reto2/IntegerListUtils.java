@@ -15,4 +15,10 @@ public class IntegerListUtils {
                 amountElements(list)
         );
     }
+
+    public static Integer maxIsMultiplyTwo(List<Integer> list){
+        Integer max = findMaxElement(list);
+        Function<Integer,Integer> maxIsPair = num -> num % 2 == 0 ? 1 : -1;
+        return maxIsPair.apply(max);
+    }
 }

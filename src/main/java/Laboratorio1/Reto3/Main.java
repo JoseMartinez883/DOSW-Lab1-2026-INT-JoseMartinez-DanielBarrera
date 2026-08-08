@@ -1,4 +1,4 @@
-package Laboratorio1.reto3;
+package Laboratorio1.Reto3;
 
 import java.util.Scanner;
 import java.util.function.Function;
@@ -7,7 +7,7 @@ public class Main {
 
     static void main(String[] args){
 
-        StringUtils stringsUtilities = new StringUtils();
+        Laboratorio1.reto3.StringUtils stringsUtilities = new StringUtils();
 
         Scanner scanner = new Scanner(System.in);
 

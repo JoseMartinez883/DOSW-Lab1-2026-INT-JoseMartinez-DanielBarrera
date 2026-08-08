@@ -18,7 +18,7 @@ public class Main {
 
         Function<String,List<Integer>> stringToIntegerList = numsText ->
                 List.of(numsText.replace("[","").replace("]","").split(","))
-                        .stream()
+                        .stream().map(String::trim)
                         .map(numString -> Integer.parseInt(numString))
                         .collect(Collectors.toCollection(ArrayList::new));
 

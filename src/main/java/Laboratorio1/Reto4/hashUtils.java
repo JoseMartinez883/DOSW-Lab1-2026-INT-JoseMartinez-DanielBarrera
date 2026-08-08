@@ -16,6 +16,13 @@ public class hashUtils {
         return mapElements;
     }
 
+    public static Hashtable<String, Integer> listElementsToHashTable(List<Elemento> elementos) {
+        Hashtable<String, Integer> hashtable = new Hashtable<>();
+        elementos.stream()
+                .forEach(elemento -> hashtable.put(elemento.getElement(), elemento.getValue()));
+        return hashtable;
+    }
+
     public static Map<String, Integer> combineHashMapAndHashTable(HashMap<String, Integer> hashMap, Hashtable<String, Integer> hashtable) {
 
         Map<String, Integer> combinado = new HashMap<>(hashMap);
@@ -31,4 +38,5 @@ public class hashUtils {
                         LinkedHashMap::new
                 ));
     }
+
 }

@@ -13,7 +13,6 @@ public class Main {
         };
 
 
-
         String element = "";
         Scanner sc = new Scanner(System.in);
 
@@ -40,13 +39,16 @@ public class Main {
             }
         }
 
+
         HashMap<String, Integer> hashMap = new HashMap<>();
-        Hashtable<String, Integer> hashtable = new Hashtable<>();
+        Hashtable<String, Integer> hashtable;
         hashMap = new HashMap<>(hashUtils.listElementsToHashMap(elementoHashMap));
+        hashtable = new Hashtable<>(hashUtils.listElementsToHashTable(elementosHashTable));
 
         Map<String,Integer> hashCombine = hashUtils.combineHashMapAndHashTable(hashMap,hashtable);
 
         hashCombine.forEach((key, value) -> System.out.printf("Clave: %-10s | Valor: %d%n", key, value));
         sc.close();
     }
+
 }

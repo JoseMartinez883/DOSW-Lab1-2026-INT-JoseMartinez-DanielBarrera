@@ -37,4 +37,19 @@ public class IntegerListUtils {
         return maxIsPair.apply(max);
     }
 
+    public static List<Resultado> ListsInformation(List<Integer> list1, List<Integer> list2){
+
+        List<Integer> listAnalysis1 = new ArrayList<>(listAnalysis(list1));
+        listAnalysis1.add(maxIsMultiplyTwo(list1));
+
+        listAnalysis1.add(amountListIsPair(list1));
+
+        List<Integer> listAnalysis2 = new ArrayList<>(listAnalysis(list2));
+        listAnalysis2.add(maxIsMultiplyTwo(list2));
+
+        listAnalysis2.add(amountListIsPair(list2));
+
+        return List.of(new Resultado(listAnalysis1), new Resultado(listAnalysis2));
+    }
+
 }

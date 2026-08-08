@@ -22,6 +22,12 @@ public class IntegerListUtils {
         return maxIsDivisorByTwo.apply(max);
     }
 
+    public static Integer amountListIsPair(List<Integer> list){
+        Integer amountList = list.size();
+        Function<Integer,Integer> amountListIsPair = num -> num % 2 == 0 ? 1 : -1;
+        return amountListIsPair.apply(amountList);
+    }
+
     public static List<Resultado> ListsInformation(List<Integer> list1, List<Integer> list2){
 
         List<Integer> listAnalysis1 = new ArrayList<>(listAnalysis(list1));

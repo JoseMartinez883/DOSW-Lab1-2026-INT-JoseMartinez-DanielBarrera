@@ -30,14 +30,10 @@
   <img src="Images/Inseguridades.png" alt="Inseguridades - Daniel Barrera">
 </div>
 
-<h2> ¿Por qué soy el candidato ideal para DOSW Company? </h2
-  <p>
-    Soy el candidato ideal ya que soy una persona resiliente y que esta disputa a trabajar en un equipo de trabajo, dando lo mejor de mi y solucionando los prblemas que puedan surgir, ademas de que estoy dispuesto a escuchar e implementar los buenos aportes que hagan mis compañeros
-  </p>
-                                                          
-
+<h2> ¿Por qué soy el candidato ideal para DOSW Company? </h2>
 <div align="justify">
   <p>
-    En desarrollo
+    Soy el candidato ideal ya que soy una persona resiliente y que esta disputa a trabajar en un equipo de trabajo, dando lo mejor de mi y solucionando los prblemas que puedan surgir, ademas de que estoy dispuesto a escuchar e 
+    implementar los buenos aportes que hagan mis compañeros
   </p>
 </div>

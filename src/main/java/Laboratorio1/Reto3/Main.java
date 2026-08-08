@@ -7,7 +7,7 @@ public class Main {
 
     static void main(String[] args){
 
-        Laboratorio1.reto3.StringUtils stringsUtilities = new StringUtils();
+        StringUtils stringsUtilities = new StringUtils();
 
         Scanner scanner = new Scanner(System.in);
 

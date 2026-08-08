@@ -1,4 +1,4 @@
-package org.example.reto02;
+package Laboratorio1.Reto2;
 
 import java.util.ArrayList;
 import java.util.List;

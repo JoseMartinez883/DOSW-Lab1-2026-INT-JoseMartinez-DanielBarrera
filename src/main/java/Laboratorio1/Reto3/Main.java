@@ -1,4 +1,4 @@
-package Laboratorio1.reto3;
+package Laboratorio1.Reto3;
 
 import java.util.Scanner;
 import java.util.function.Function;

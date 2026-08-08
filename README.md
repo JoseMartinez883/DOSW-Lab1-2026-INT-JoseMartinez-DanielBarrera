@@ -35,3 +35,12 @@
 
 ![Texto alternativo](https://github.com/JoseMartinez883/DOSW-Lab1-2026-INT-JoseMartinez-DanielBarrera/blob/5491b6fbbe9c3e1421ad5485394252946064306f/Images/evidenciaReto05.png)
 
+<h2> Reto #06 culminado </h2>
+<p alingn = “center”>
+    <div align= “justify”>
+        Se subió la solución del reto #06, se adjunta imagen de la salida esperada.
+    </div>
+</p>
+
+![Texto alternativo](https://github.com/JoseMartinez883/DOSW-Lab1-2026-INT-JoseMartinez-DanielBarrera/blob/36499c5ca21016a3bcdc8838d3b5d6da3895c175/Images/evidenciaReto06.png)
+

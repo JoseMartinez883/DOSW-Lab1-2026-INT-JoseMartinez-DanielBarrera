@@ -5,15 +5,16 @@ import java.util.stream.Collectors;
 
 public class hashUtils {
 
-    public static Map<String,Integer> listElementsToHashMap(List<Elemento> elements){
+    public static HashMap<String,Integer> listElementsToHashMap(List<Elemento> elements){
 
-        Map<String,Integer> mapElements = elements.stream()
+        HashMap<String, Integer> hashMapElements = elements.stream()
                 .collect(Collectors.toMap(
                         Elemento::getElement,
                         Elemento::getValue,
-                        (existente,nuevo) -> existente
+                        (existente,nuevo) -> existente,
+                        HashMap::new
                 ));
-        return mapElements;
+        return hashMapElements;
     }
 
     public static Hashtable<String, Integer> listElementsToHashTable(List<Elemento> elementos) {

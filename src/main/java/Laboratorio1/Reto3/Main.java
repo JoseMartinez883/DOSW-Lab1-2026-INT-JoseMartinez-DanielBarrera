@@ -12,7 +12,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Mensaje Interceptado: ");
-        String message = scanner.nextLine();
+        String message = scanner.nextLine().replace("\"","").trim();
 
         System.out.println("Canal A - amplifica señal");
         System.out.println("Canal B - invierte protocolo");

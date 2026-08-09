@@ -37,7 +37,7 @@ public class Test03 extends Test {
 
         return "Prueba 3 - Puente de Cristal:\n" +
                 "    " + nombresPasaron + " PASAN\n" +
-                "    Jugador " + numerosEliminados + " ELIMINADO";
+                "    Jugador " + numerosEliminados + " ELIMINADO" + "\n";
     }
 
 }

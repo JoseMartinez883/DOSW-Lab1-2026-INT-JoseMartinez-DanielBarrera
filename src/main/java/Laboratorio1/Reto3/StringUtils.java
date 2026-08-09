@@ -4,17 +4,18 @@ import java.util.stream.Stream;
 
 public class StringUtils {
 
-    public String reverse(String message) {
+    public String reverse(String message){
         StringBuffer message2 = new StringBuffer(message);
         return message2.reverse().toString();
     }
 
     public String replicate(String message){
-        StringBuilder amplificationMessage = new StringBuilder();
+        StringBuilder amplificationMessage = new StringBuilder(message);
 
         Stream.generate(() -> " " + message)
                 .limit(2)
-                .forEach(ampflication -> amplificationMessage.append(ampflication));
+                .forEach(amplification -> amplificationMessage.append(amplification));
+
 
         return amplificationMessage.toString();
     }
@@ -24,7 +25,7 @@ public class StringUtils {
         System.out.println("Canal A: \"" +  messageAmplification + "\"");
 
         String messageAmplificationReverse = reverse(messageAmplification);
-        System.out.println("Descrifrado final: " + messageAmplificationReverse);
+        System.out.println("Descrifrado final: \"" + messageAmplificationReverse + "\"");
 
         return messageAmplificationReverse;
     }

@@ -55,7 +55,7 @@ public class Test02 extends Test {
 
         return "Prueba 2 - Los Dados:\n" +
                 "    " + lastNamePlayersActive + " PASAN\n" +
-                "    Jugador " + playersNumbersEliminated + " ELIMINADO";
+                "    Jugador " + playersNumbersEliminated + " ELIMINADO" + "\n";
     }
 
 }

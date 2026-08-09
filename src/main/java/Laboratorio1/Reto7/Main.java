@@ -22,7 +22,6 @@ public class Main {
                     .filter( information -> !information.isEmpty())
                     .toList();
 
-            System.out.println(playerInformation);
             return new Player(playerInformation.getFirst(),
                     playerInformation.get(1), playerInformation.get(2),
                     NumberParser.parseFormattedString(playerInformation.getLast()));
@@ -41,7 +40,9 @@ public class Main {
             }
         }
 
-
         sc.close();
+
+        Game game = new Game(players);
+        game.playTests();
     }
 }

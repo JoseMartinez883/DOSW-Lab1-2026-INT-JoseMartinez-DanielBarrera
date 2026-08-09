@@ -39,7 +39,7 @@ public class Test01 extends Test {
 
         return "Prueba 1 - Luz Roja Luz Verde:\n" +
                 "    " + lastNamePlayersActive + " PASAN\n" +
-                "    Jugador " + playersNumbersEliminated + " ELIMINADO";
+                "    Jugador " + playersNumbersEliminated + " ELIMINADO" + "\n";
     }
 
 }

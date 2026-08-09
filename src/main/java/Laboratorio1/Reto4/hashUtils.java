@@ -4,13 +4,18 @@ import java.util.*;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class hashUtils {
+
     public static Hashtable<String, Integer> listElementsToHashTable(List<Elemento> elementos) {
-        Hashtable<String, Integer> hashtable = new Hashtable<>();
-        elementos.stream()
-                .forEach(elemento -> hashtable.put(elemento.getElement(), elemento.getValue()));
-        return hashtable;
+        return elementos.stream()
+                .collect(Collectors.toMap(
+                        Elemento::getElement,
+                        Elemento::getValue,
+                        (existente, nuevo) -> existente,
+                        Hashtable::new
+                ));
     }
 
     public static Map<String, Integer> combineHashMapAndHashTable(HashMap<String, Integer> hashMap, Hashtable<String, Integer> hashtable) {

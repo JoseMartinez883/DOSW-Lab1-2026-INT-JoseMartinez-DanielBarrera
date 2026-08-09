@@ -14,6 +14,7 @@ public class Game {
         totalPrize = initialPrize;
         this.players = players;
         this.tests = new ArrayList<>();
+        tests.add(new Test01());
         tests.add(new Test02());
         tests.add(new Test03());
     }

@@ -27,7 +27,17 @@ public class Test03 extends Test {
 
     @Override
     public String resultTest() {
-        return "";
+        String nombresPasaron = playersActive.stream()
+                .map(Player::getLastName)
+                .collect(Collectors.joining(", "));
+
+        String numerosEliminados = playersEliminated.stream()
+                .map(Player::getNumber)
+                .collect(Collectors.joining(", "));
+
+        return "Prueba 3 - Puente de Cristal:\n" +
+                "    " + nombresPasaron + " PASAN\n" +
+                "    Jugador " + numerosEliminados + " ELIMINADO";
     }
 
 }

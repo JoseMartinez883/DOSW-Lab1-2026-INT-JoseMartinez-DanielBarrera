@@ -57,6 +57,16 @@
 ![Texto alternativo](https://github.com/JoseMartinez883/DOSW-Lab1-2026-INT-JoseMartinez-DanielBarrera/blob/36499c5ca21016a3bcdc8838d3b5d6da3895c175/Images/evidenciaReto06.png)
 
 
+<h2> Reto #07 culminado </h2>
+<p alingn = “center”>
+    <div align= “justify”>
+        Se subió la solución del reto #07, se adjunta imagen de la salida esperada.
+    </div>
+</p>
+
+![Texto alternativo](https://github.com/JoseMartinez883/DOSW-Lab1-2026-INT-JoseMartinez-DanielBarrera/blob/1bee3666d6fbdeff2287de96b741ba8af9747aaf/Images/evidenciaReto07.png)
+
+
 
 # Respuestas al cuestionario teorico
 

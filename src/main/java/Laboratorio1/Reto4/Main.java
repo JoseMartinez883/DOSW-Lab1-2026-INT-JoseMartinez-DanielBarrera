@@ -50,5 +50,4 @@ public class Main {
         hashCombine.forEach((key, value) -> System.out.printf("Clave: %-10s | Valor: %d%n", key, value));
         sc.close();
     }
-
 }
